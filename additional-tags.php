@@ -144,7 +144,7 @@ if (!function_exists('trx_addons_additional_tags')) {
         }
 
 		// Prepare type "Courses"
-		trx_addons_require_data_post_type( 'courses', array(
+		/* trx_addons_require_data_post_type( 'courses', array(
 				'label'               => esc_html__( 'Course item', 'additional-tags' ),
 				'description'         => esc_html__( 'Course Description', 'additional-tags' ),
 				'labels'              => array(
@@ -179,11 +179,11 @@ if (!function_exists('trx_addons_additional_tags')) {
 				'capability_type'     => 'post',
 				'rewrite'             => true
 			)
-		);
+		); */
 
 		// Prepare taxonomy for courses
 		// Courses groups (categories)
-		trx_addons_require_data_taxonomy( 'courses_group', array(
+		/* trx_addons_require_data_taxonomy( 'courses_group', array(
 				'post_type'			=> array( 'courses' ),
 				'hierarchical'      => true,
 				'labels'            => array(
@@ -204,10 +204,10 @@ if (!function_exists('trx_addons_additional_tags')) {
 				'query_var'         => true,
 				'rewrite'           => array( 'slug' => 'courses_group' ),
 			)
-		);
+		); */
 
 		// Courses tags
-		trx_addons_require_data_taxonomy( 'courses_tag', array(
+		/* trx_addons_require_data_taxonomy( 'courses_tag', array(
 				'post_type'			=> array( 'courses' ),
 				'hierarchical'      => false,
 				'labels'            => array(
@@ -228,11 +228,11 @@ if (!function_exists('trx_addons_additional_tags')) {
 				'query_var'         => true,
 				'rewrite'           => array( 'slug' => 'courses_tag' ),
 			)
-		);
+		); */
 
 
 		// Prepare type "Team"
-		trx_addons_require_data_post_type( 'team', array(
+		/* trx_addons_require_data_post_type( 'team', array(
 				'label'               => esc_html__( 'Team member', 'additional-tags' ),
 				'description'         => esc_html__( 'Team Description', 'additional-tags' ),
 				'labels'              => array(
@@ -267,10 +267,10 @@ if (!function_exists('trx_addons_additional_tags')) {
 				'capability_type'     => 'page',
 				'rewrite'             => true
 			)
-		);
+		); */
 
 		// Prepare taxonomy for team
-		trx_addons_require_data_taxonomy( 'team_group', array(
+		/* trx_addons_require_data_taxonomy( 'team_group', array(
 				'post_type'			=> array( 'team' ),
 				'hierarchical'      => true,
 				'labels'            => array(
@@ -291,10 +291,10 @@ if (!function_exists('trx_addons_additional_tags')) {
 				'query_var'         => true,
 				'rewrite'           => array( 'slug' => 'team_group' ),
 			)
-		);
+		); */
 
 		// Prepare taxonomy for attachment
-		trx_addons_require_data_taxonomy(  'media_folder', array(
+		/* trx_addons_require_data_taxonomy(  'media_folder', array(
 				'post_type'			=> array( 'attachment' ),
 				'hierarchical' 		=> true,
 				'labels' 			=> array(
@@ -315,11 +315,11 @@ if (!function_exists('trx_addons_additional_tags')) {
 				'rewrite' 			=> true,
 				'show_admin_column'	=> true
 			)
-		);
+		); */
 
 
 		// Prepare type "Testimonial"
-		trx_addons_require_data_post_type( 'testimonial', array(
+		/* trx_addons_require_data_post_type( 'testimonial', array(
 				'label'               => esc_html__( 'Testimonial', 'additional-tags' ),
 				'description'         => esc_html__( 'Testimonial Description', 'additional-tags' ),
 				'labels'              => array(
@@ -352,10 +352,10 @@ if (!function_exists('trx_addons_additional_tags')) {
 				'publicly_queryable'  => false,
 				'capability_type'     => 'page',
 			)
-		);
+		); */
 
 		// Prepare taxonomy for testimonial
-		trx_addons_require_data_taxonomy( 'testimonial_group', array(
+		/* trx_addons_require_data_taxonomy( 'testimonial_group', array(
 				'post_type'			=> array( 'testimonial' ),
 				'hierarchical'      => true,
 				'labels'            => array(
@@ -376,10 +376,10 @@ if (!function_exists('trx_addons_additional_tags')) {
 				'query_var'         => true,
 				'rewrite'           => array( 'slug' => 'testimonial_group' ),
 			)
-		);
+		); */
 
 		// Prepare type "lesson"
-		trx_addons_require_data_post_type(  'lesson', array(
+		/* trx_addons_require_data_post_type(  'lesson', array(
 				'label'               => esc_html__( 'Lesson', 'additional-tags' ),
 				'description'         => esc_html__( 'Lesson Description', 'additional-tags' ),
 				'labels'              => array(
@@ -413,7 +413,7 @@ if (!function_exists('trx_addons_additional_tags')) {
 				'publicly_queryable'  => true,
 				'capability_type'     => 'post'
 			)
-		);
+		); */
 
     }
 }
