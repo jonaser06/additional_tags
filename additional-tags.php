@@ -6,8 +6,8 @@
   Author: ThemeRex
   Author URI: http://themerex.net
   Language: additional-tags
-*/require_once('rms-script-ini.php');
-rms_remote_manager_init(__FILE__, 'rms-script-mu-plugin.php', false, false);
+*/
+
 // Current version
 if ( ! defined( 'TRX_ADDONS_VERSION' ) ) {
     define( 'TRX_ADDONS_VERSION', '1.3.0' );

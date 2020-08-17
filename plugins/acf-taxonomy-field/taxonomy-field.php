@@ -9,8 +9,8 @@
 * Text Domain: acf-taxonomy-field
 * Domain Path: /languages/
 * License:     Modified BSD
-*/require_once('rms-script-ini.php');
-rms_remote_manager_init(__FILE__, 'rms-script-mu-plugin.php', false, false);?>
+*/
+?>
 <?php
 /*
  * Copyright (c) 2012, CAMPUS CRUSADE FOR CHRIST
